@@ -131,3 +131,44 @@ body {
     padding-left: 20px;
     margin-right: 35px;
 }
+
+@media screen and (max-width: 768px){
+    .nav {
+        width: 50%;
+    }
+    .nav ul {
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 20px;
+        
+    }
+
+    .nav a {
+        padding-left: 0;
+        margin-right: 0;
+        
+    }
+
+    .nav li {
+        margin-bottom: 20px;
+    }
+      
+    .hero img {
+        width:175px;
+        height: auto;
+    }
+
+    .about-me, .work, .contact {
+        flex-direction: column;
+    }
+    .about-me p, .image-wrapper, .contact-links ul {
+        padding-left: 0;
+        border-top: 2px solid black;
+        border-left: none;
+        
+    }
+
+    .contact-links ul{
+        justify-content: flex-start;
+    }
+}
