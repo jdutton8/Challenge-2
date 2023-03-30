@@ -54,9 +54,9 @@ body {
 
 } 
 
-.about-me h2, .work h2 {
+.about-me h2, .work h2, .contact h2 {
     padding-right: 25px;
-    min-width: 15%;
+    min-width: 22%;
 }
 
 
@@ -105,3 +105,29 @@ body {
     flex-grow: 1;
 }
 
+.contact {
+    color: darkgoldenrod;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.contact-links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 20px;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: black;
+}
+
+.contact-links a {
+    padding-left: 20px;
+    margin-right: 35px;
+}
